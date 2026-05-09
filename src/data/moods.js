@@ -1,0 +1,58 @@
+export const moods = [
+  {
+    id: "harika",
+    label: "Harika",
+    emoji: "🤩",
+    gradient: "from-citrus-400 to-mint-400",
+    ring: "ring-citrus-400/60",
+    text: "text-citrus-400",
+    chip: "bg-citrus-400/15 text-citrus-400 border-citrus-400/30",
+  },
+  {
+    id: "mutlu",
+    label: "Mutlu",
+    emoji: "😊",
+    gradient: "from-mint-400 to-teal-400",
+    ring: "ring-mint-400/60",
+    text: "text-mint-400",
+    chip: "bg-mint-400/15 text-mint-400 border-mint-400/30",
+  },
+  {
+    id: "sakin",
+    label: "Sakin",
+    emoji: "😌",
+    gradient: "from-teal-400 to-ocean-400",
+    ring: "ring-teal-400/60",
+    text: "text-teal-400",
+    chip: "bg-teal-400/15 text-teal-400 border-teal-400/30",
+  },
+  {
+    id: "yorgun",
+    label: "Yorgun",
+    emoji: "😴",
+    gradient: "from-ocean-500 to-ocean-600",
+    ring: "ring-ocean-500/60",
+    text: "text-ocean-400",
+    chip: "bg-ocean-500/15 text-ocean-300 border-ocean-500/30",
+  },
+  {
+    id: "uzgun",
+    label: "Üzgün",
+    emoji: "😢",
+    gradient: "from-ocean-400 to-teal-500",
+    ring: "ring-ocean-400/60",
+    text: "text-ocean-400",
+    chip: "bg-ocean-400/15 text-ocean-400 border-ocean-400/30",
+  },
+  {
+    id: "kizgin",
+    label: "Kızgın",
+    emoji: "😤",
+    gradient: "from-blaze-500 to-citrus-500",
+    ring: "ring-blaze-500/60",
+    text: "text-blaze-500",
+    chip: "bg-blaze-500/15 text-blaze-400 border-blaze-500/30",
+  },
+];
+
+export const getMood = (id) => moods.find((m) => m.id === id);
