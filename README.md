@@ -1,4 +1,4 @@
-# MoodLog 🌈
+# MoodLog 🍃
 
 Ruh halini ve düşüncelerini günü gününe kaydedebileceğin küçük, estetik bir günlük uygulaması. React temellerini gerçek bir projede pekiştirmek için hazırlandı.
 
